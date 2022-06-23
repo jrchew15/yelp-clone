@@ -1,0 +1,60 @@
+.header__icon {
+    grid-column: 1/2;
+}
+
+.header__icon .icon {
+    width: 42px;
+
+}
+
+.masthead-container {
+    background-image: url("https://s3-media0.fl.yelpcdn.com/educatorphoto/_tmAs95FomIea9WFlZ0tKA/o.jpg");
+    background-size: 1024px;
+    background-repeat: no-repeat;
+    height: 682px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 8fr 2fr;
+    grid-template-columns: 60px 1fr auto;
+}
+
+/* .header {
+    grid-column: 1/4;
+    /* padding: 18px 24px; */
+
+
+.header__search-area {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction:column;
+    /* width: 100%; */
+}
+
+.header__search-area__searchbar {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+.header__action-buttons {
+    grid-column: 3/4;
+    justify-self:end;
+}
+
+.header__search-area__searchbar #search-items {
+    background-color: rgb(249, 249, 249);
+    border-radius: 4px 0px 0px 4px;
+    flex-grow: 1;
+}
+.header__search-area__searchbar #location {
+    background-color: rgb(249, 249, 249);
+    flex-grow: 1;
+}
+.header__search-area__searchbar #divider {
+    background-color: rgb(249, 249, 249);
+}
+
+.header__search-area__searchbar #search-button {
+    background-color: rgb(224, 7, 7);
+    border-radius: 0px 4px 4px 0px;
+}
