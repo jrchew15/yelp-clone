@@ -10,7 +10,7 @@
     grid-template-areas:
         "icon searchbar actions"
         ". dropdowns dropdowns"
-        ". advertisement .";
+        ". adv .";
     background-image: url("../images/bkg1.jpg");
     background-size: 1827px;
     background-repeat: no-repeat;
@@ -254,10 +254,10 @@
     padding-right: 4px;
 }
 
-.advertisement-cell {
+.adv-cell {
     /* grid-row: 3/4;
     grid-column: 2/3; */
-    grid-area: advertisement;
+    grid-area: adv;
     display: grid;
     grid-auto-flow: column;
     /* background-color: blue; */
@@ -271,7 +271,7 @@
     padding: 5px;
 }
 
-.advertisement-cell>.loading-bar--unloaded {
+.adv-cell>.loading-bar--unloaded {
     width: 10px;
     height: 90px;
     border-radius: 5px;
@@ -353,7 +353,7 @@
     }
 }
 
-.advertisement-cell__text {
+.adv-cell__text {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgb(249, 249, 249);
     font-size: 48px;
@@ -363,29 +363,29 @@
     flex-direction: column;
 }
 
-.advertisement-cell__text>span {
+.adv-cell__text>span {
     padding: 15px 0px;
 }
 
-.advertisement-cell__text#first {
+.adv-cell__text#first {
     animation: text1 var(--animation-duration) infinite linear;
 }
 
 
 
-.advertisement-cell__text#second {
+.adv-cell__text#second {
     animation: text2 var(--animation-duration) infinite linear;
 }
 
 
 
-.advertisement-cell__text#third {
+.adv-cell__text#third {
     animation: text3 var(--animation-duration) infinite linear;
 }
 
 
 
-.advertisement__search {
+.adv__search {
     display: flex;
     align-items: center;
     width: max-content;
@@ -396,12 +396,12 @@
     text-justify: center;
 }
 
-.advertisement__search>i {
+.adv__search>i {
     font-size: 26px;
     padding-right: 8px;
 }
 
-.advertisement__subhead {
+.adv__subhead {
     font-size: 14px;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgb(249, 249, 249);
@@ -411,15 +411,15 @@
     justify-content: center;
 }
 
-.advertisement__subhead>.company {
+.adv__subhead>.company {
     font-weight: bold;
 }
 
-.advertisement__subhead#second {
+.adv__subhead#second {
     animation: text2 var(--animation-duration) infinite linear;
 }
 
-.advertisement__subhead#third {
+.adv__subhead#third {
     animation: text3 var(--animation-duration) infinite linear;
 }
 
